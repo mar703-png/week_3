@@ -99,41 +99,41 @@
 
 
 ##########################################################################################
-# #addition
-print(2 + 2)
-# #multiplication
-print(2 * 2)
-# #division
-print(2 / 2)
-# #modulo
-print(2 % 2) #remainder
-# #powers
-print(2 ** 2)
-# #get the max and min of a number
-print(max(2, 3)) #max number of the two
-print(min(2, 3)) #min number of the two
-# #round a number
-print(round(2.5)) #rounds to the nearest whole number
-# # absolute value
-print(abs(-2)) #absolute value of the number
-# # order of operations
-print(2 + 10 * 10 + 3) #PEMDAS
-# #to do more you need to import special math libraries from python
-from math import *    
-# #this goes out and grabs some different math functions we can use
+# # #addition
+# print(2 + 2)
+# # #multiplication
+# print(2 * 2)
+# # #division
+# print(2 / 2)
+# # #modulo
+# print(2 % 2) #remainder
+# # #powers
+# print(2 ** 2)
+# # #get the max and min of a number
+# print(max(2, 3)) #max number of the two
+# print(min(2, 3)) #min number of the two
+# # #round a number
+# print(round(2.5)) #rounds to the nearest whole number
+# # # absolute value
+# print(abs(-2)) #absolute value of the number
+# # # order of operations
+# print(2 + 10 * 10 + 3) #PEMDAS
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
 
-# #floor method
-print(floor(3.7)) #floor method
-print(floor(3.3)) #floor method
-print(floor(3.9)) #floor method
-#floor means it will always round down 
+# # #floor method
+# print(floor(3.7)) #floor method
+# print(floor(3.3)) #floor method
+# print(floor(3.9)) #floor method
+# #floor means it will always round down 
 
-# #ceil method
-print(ceil(3.7)) #ceil method
-print(ceil(3.3)) #ceil method
+# # #ceil method
+# print(ceil(3.7)) #ceil method
+# print(ceil(3.3)) #ceil method
 
-# #sqrt method
-print(sqrt(36)) #square root method
+# # #sqrt method
+# print(sqrt(36)) #square root method
 # #sqrt method means it will find the
 # square root of the number
 #which is the number that when
@@ -145,14 +145,24 @@ print(sqrt(36)) #square root method
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+name = input("What is your name?")
+print("Hello,", name)
 # # basic math calculator
 # #ask the user for 2 numbers
+number1 = int(input("Enter a number: "))
+number2 = int(input("Enter another number: "))
 # # print out a statement where you:
 # # add them together
+print(number1 + number2)
 # #multiply
+print(number1 * number2)
 # # find the max number
+print(max(number1, number2))
 # # find the remainder of the numbers
+print(number1 % number2)
 # #round one number
+print(round(number1, number2))
+
 
 
 ##########################################################################################
