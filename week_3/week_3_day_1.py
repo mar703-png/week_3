@@ -8,25 +8,25 @@
 # # 1.   Building a Basic Calculator
 # # 2.   Mad Libs Game
 
-# # Review
-# create variables for the following :
-# 1. age
-age = 25
-# 2. name
-name = "John"
-# 3. song
-song = "Happy Birthday"
-# 4. food
-food = "Apples"
-# 5. number
-number = 1000
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age = 25
+# # 2. name
+# name = "John"
+# # 3. song
+# song = "Happy Birthday"
+# # 4. food
+# food = "Apples"
+# # 5. number
+# number = 1000
 
-# #now include the variables you just made print in the following...
-# Once upon a time, there was a [age] old coder named [name].
-#concatenation
-print ("Once upon a time, there was a " + str(age) + " old coder named " + name + ".")
-#f string
-print (f"Once upon a time, there was a {age} old coder named {name}.")
+# # #now include the variables you just made print in the following...
+# # Once upon a time, there was a [age] old coder named [name].
+# #concatenation
+# print ("Once upon a time, there was a " + str(age) + " old coder named " + name + ".")
+# #f string
+# print (f"Once upon a time, there was a {age} old coder named {name}.")
 
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
@@ -65,8 +65,6 @@ print (f"Once upon a time, there was a {age} old coder named {name}.")
 # A variable to store the number of items in a shopping cart
 
 
-
-
 # Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
 
 
@@ -80,23 +78,7 @@ print (f"Once upon a time, there was a {age} old coder named {name}.")
 # percentage
 # i
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ############################################################################################
-
 
 # # **Working with** **numbers** **bold text**
 # We'll learn about the following topics:
@@ -110,23 +92,46 @@ print (f"Once upon a time, there was a {age} old coder named {name}.")
 # Integers are just whole numbers, positive or negative. For example: 2 and -2 are examples of integers.
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
-
 ##########################################################################################
 # #addition
+print(2 + 2)
 # #multiplication
+print(2 * 2)
 # #division
+print(2 / 2)
 # #modulo
+print(2 % 2) #remainder
 # #powers
+print(2 ** 2)
 # #get the max and min of a number
+print(max(2, 3)) #max number of the two
+print(min(2, 3)) #min number of the two
 # #round a number
+print(round(2.5)) #rounds to the nearest whole number
 # # absolute value
+print(abs(-2)) #absolute value of the number
 # # order of operations
+print(2 + 10 * 10 + 3) #PEMDAS
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
+
 # #floor method
+print(floor(3.7)) #floor method
+print(floor(3.3)) #floor method
+print(floor(3.9)) #floor method
+#floor means it will always round down 
+
 # #ceil method
+print(ceil(3.7)) #ceil method
+print(ceil(3.3)) #ceil method
+
 # #sqrt method
+print(sqrt(36)) #square root method
+# #sqrt method means it will find the
+# square root of the number
+#which is the number that when
+# multiplied by itself gives the number
 
 
 
