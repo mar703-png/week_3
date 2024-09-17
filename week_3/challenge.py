@@ -22,3 +22,5 @@ sales = float(input("How much have you sold this month?"))
 
 sales = (sales * 13 / 100)
 print("You are entitled to" , sales)
+
+# alec hard carried
