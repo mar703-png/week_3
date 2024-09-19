@@ -3,34 +3,48 @@
 
 ##########################Reviewing somethings
 
-# indexing strings -- slide 4
-my_text = 'this is a text '
+# # indexing strings -- slide 4
+my_text = 'this is a text string '
 result = my_text  #get the index of the letter a
-print(result[0:4])
-# Find the word text
+# print(result[0:4])
+# # Find the word text
 print(result.find('text'))
-# Find the index of the word text
+# # Find the index of the word text
 print(result[10:14])
-# Index slicing is when you gety a substring from a string
-# You can get a substring by specifing the start and end index of the substring. 
-# The start index is omc;isove anmd the end index is exclusive
+print (result.find('is'))
+print(result[5:7])
+# # Reverse the string
+# # print(result[ : :-1])
+# # Get the last letter of the string
+print(result[-1])
+print(result.find('string'))
+print(result[15:-1])
+print(result.find('hancock'))
+# # -1 means the substring is not found
+# # Index slicing is when you get a substring from a string
+# # You can get a substring by specifing the start and end index of the substring. 
+# # The start index is inclusive and the end index is exclusive
 
-#get the index of the third letter from the end of the text
-
+# #get the index of the third letter from the end of the text
+print(result[-3])
+print(result[-5])
 # find the index of the letter s
 
 ###slide 5
 # string[start:stop:step]
 #example
-# text = "Hello, World!"
-# print(text[7:12])  # prints "World"
+text = "Hello, World!"
+print(text[7:12])  # prints "World"
 text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 # Get the substring CDE and put in a variable
-
-#get the first letter all the way to the 4th letter
-
+substring = text.find('CDE')
+print(substring)
+substring = text[2:5]
+# Get the first letter all the way to end of the string
+print(text[0:])
+# This gets the first letter to the last letter
 #get the first letter to the final letter and skip every 3rd letter
-
+print(text[0::3])
 # Built-in methods:
 # Python has a variety of built-in methods to work with substrings.
 
