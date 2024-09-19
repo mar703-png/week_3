@@ -15,12 +15,12 @@
 
 ############################################################################################
 
-name = input("What is your name?")
-print("Hello,", name)
+# name = input("What is your name?")
+# print("Hello,", name)
 
-sales = float(input("How much have you sold this month?"))
+# sales = float(input("How much have you sold this month?"))
 
-sales = (sales * 13 / 100)
-print("You are entitled to" , sales)
+# sales = (sales * 13 / 100)
+# print("You are entitled to" , sales)
 
-# alec hard carried
+################################################################################################print()
