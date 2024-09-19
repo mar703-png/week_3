@@ -4,9 +4,16 @@
 ##########################Reviewing somethings
 
 # indexing strings -- slide 4
-my_text = 'this is a text'
+my_text = 'this is a text '
 result = my_text  #get the index of the letter a
-print(result)
+print(result[0:4])
+# Find the word text
+print(result.find('text'))
+# Find the index of the word text
+print(result[10:14])
+# Index slicing is when you gety a substring from a string
+# You can get a substring by specifing the start and end index of the substring. 
+# The start index is omc;isove anmd the end index is exclusive
 
 #get the index of the third letter from the end of the text
 
