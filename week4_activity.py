@@ -69,6 +69,24 @@ print(text[0::3])
 # "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
 
 ##################################### String Methods#################################
+new_text = "This is a new text text text text string"
+print(new_text.count("text"))
+# .count() method counts the number of times
+# a substring appears in a string
+# startswith() method checks if a
+# string starts with a specific substring
+print(new_text.startswith("this"))
+#endwith() method checks if a
+# string ends with a specific substring
+print(new_text.endswith("string"))
+# .replace() method replacdes a
+# substreing with another substring
+print(new_text.endswith("string"))
+# .replace() method replaces a
+# substring with another substring
+print(new_text.replace("text", "word"))
+
+
 # String Methods Practice #1
 #slieds 12 -16
 # Print the following text in uppercase, using the specific string method:
