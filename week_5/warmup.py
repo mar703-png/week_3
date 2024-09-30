@@ -16,10 +16,9 @@ print(my_text2[-2])
 
 # c. Find the first occurrence of the letter 'c'.
 
-my_text3 = "abracadabra"
-print(my_text3.find("abracadabra"))
-print(my_text3[4])
-
+word = 'abracadabra'
+# using string find() method
+print(word.find('c'))
 
 
 # Advanced Slicing:
